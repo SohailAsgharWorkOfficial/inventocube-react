@@ -9,7 +9,7 @@ import ContactSection from "./contactsection";
 import WhyChooseUs from "./WhyChooseUs";
 const Home = () => {
   return (
-    <div>''
+    <div>
       {/* Hero Section */}
       <div
         className="relative w-full bg-cover bg-center min-h-screen"
