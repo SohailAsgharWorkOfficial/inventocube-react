@@ -4,9 +4,10 @@ import CreativeAgencySection from "../components/CreativeAgencySection";
 import Portfolio from "./portfolio";
 import IndustriesCarousel from "./IndustriesCarousel";
 import PricingPackages from "./PricingPackages";
-
+import  Footer from "./footer";
 import ContactSection from "./contactsection";
 import WhyChooseUs from "./WhyChooseUs";
+import testimonials from "./testimonials";
 const Home = () => {
   return (
     <div>
@@ -101,7 +102,10 @@ https://inventocube.com/wp-content/themes/hello-elementor-child/assets/image27.p
     className="w-full max-w-[1000px] h-auto object-contain"
   />
 </div>
+<testimonials />
 <ContactSection />
+< Footer />
+
     </div>
   );
 };
